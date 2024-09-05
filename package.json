@@ -1,0 +1,22 @@
+{
+  "name": "job-search-bot",
+  "version": "1.0.0",
+  "description": "A bot that automatically applies to job postings using Puppeteer and TypeScript.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Daniil Oberlev",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "electron": "^32.0.1",
+    "puppeteer": "^21.11.0"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "typescript": "^5.5.4"
+  }
+}
